@@ -1,0 +1,481 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%; height:auto;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%; height:auto;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+p{margin:0px 0 15px 0; padding:0 0 0 0; font-size:13px;  line-height:20px;}
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width:100%;
+	
+}
+
+#header {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:5% 8% 0 8%;
+	width: 84%;
+	display: block; background:#ffffff;
+}
+#menudiv {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width: 100%;
+	display: block; background:#ff0000; border-bottom:#ffffff solid 1px;
+	-webkit-box-shadow: inset 0px -21px 16px -24px #06519c;
+-moz-box-shadow: inset 0px -21px 16px -24px #06519c;
+box-shadow: inset 0px -21px 16px -24px #06519c;
+}
+#bannerdiv {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width: 100%;
+	display: block; background:#ffffff; border-bottom:#FFF solid 1px;
+}
+#body {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 5% 5% 5%;
+	width: 90%; background:#23211d; border-top:#FFF solid 3px;
+	display: block; color:#999;
+}
+#logo {
+	clear: none;
+	float: left;
+	margin:1% 0 1% 0; padding:0 0 5% 0;
+	width: 100%; text-align:center;
+	display: block; border-bottom:#999 dashed 1px;
+}
+#callus {
+	clear: none;
+	float: left;
+	margin:5% 0 5% 0; padding:0 0 5% 0;
+	width: 100%; text-align:center;
+	display: block; border-bottom:#999 dashed 1px;
+}
+#regd {
+	clear: none;
+	
+	float: left;
+	
+	margin:0 0 5% 0; padding:0 0 0 0;
+	
+	width: 100%; text-align:center;
+	
+	display: block;
+	
+}
+#topheader {
+	clear: both;
+	
+	float: left;
+	
+	margin:0 0 0 0; padding:2% 5% 2% 5%;
+	
+	width: 90%; background:#f2f2f2;
+	
+	display: block; border-bottom:#e5e4e4 solid 1px;
+	
+}
+#bodytop {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:5% 8% 5% 8%;
+	width: 84%;
+	display: block; font-size:10pt; line-height:20px; color:#472424; text-align:left;  border-bottom:#FFF solid 1px;
+}
+#homeprofile {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:5% 8% 5% 8%; background:#ff0000;
+	width: 84%;
+	display: block; color:#cfcff8;  border-bottom:#FFF solid 1px;
+}
+#homeservices {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:5% 8% 5% 8%;
+	width: 84%;
+	display: block; border-bottom:#FFF solid 1px;
+}
+#homenetworks {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:5% 8% 5% 8%;  background:#ff9900;
+	width: 84%;
+	display: block; border-top:#FFF solid 2px; border-bottom:#FFF solid 1px;
+}
+#homeenquirydiv {
+	clear: none;
+	float: left;
+	margin:0 0 5% 0; padding:5% 5% 5% 5%;
+	width: 90%; background:#FFF;
+	display: block; border:#cbcbcb solid 1px;  color:#b0b0b0; 
+}
+#hometext {
+	clear: none;
+	float: left;
+	margin:0 0 5% 0; padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#aboutmaindiv {
+	clear: none;
+	float: left;
+	margin:0 0 5% 0; padding:5% 5% 5% 5%;
+	width: 90%;
+	display: block; background:#fffabd; color:#000000; border-top:#e8e8c1 solid 1px; border-bottom:#ffffff solid 1px;
+}
+
+.servicemaindiv {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:5% 5% 5% 5%;
+	width: 90%;
+	display: block; background:#ffffe0; color:#000000; border-top:#e8e8c1 solid 1px; border-bottom:#ffffff solid 1px;
+}
+
+.servicemaindiv2 {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:5% 5% 5% 5%;
+	width: 90%;
+	display: block; background:#ffffff; color:#000000; border-top:#e8e8c1 solid 1px; border-bottom:#ffffff solid 1px;
+}
+
+
+/* mobile complated */
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width:100%;
+	padding:0 0 0 0;
+	
+}
+
+#header {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#menudiv {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#bannerdiv {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#body {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 5% 3% 5%;
+	width: 90%;
+	display: block;
+}
+#logo {
+	clear: none;
+	float: left;
+	margin:2% 0 2% 15%; padding:0 0 0 0;
+	width: 70%; text-align:center;
+	display: block;  border-bottom:none;
+}
+#callus {
+	clear: none;
+	float: right;
+	margin:2% 0 3% 0; padding:0 2% 0 2%;
+	width: 46%; text-align:center;
+	display: block;  border-bottom:none;
+}
+#regd {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:3% 2% 0 2%;
+	width: 46%;
+	display: block;  border-bottom:none;
+}
+#topheader {
+	clear: both;
+	float: left;
+	margin:0 0 0 0; padding:1% 0 1% 0;
+	width: 100%;
+	display: block;
+}
+#bodytop {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 8% 2% 8%;
+	width: 84%;
+	display: block; font-size:11pt; line-height:22px; color:#472424; text-align:center;
+}
+#homeprofile {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 8% 2% 8%;
+	width: 84%;
+	display: block;
+}
+#homeservices {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 8% 2% 8%;
+	width: 84%;
+	display: block;
+}
+#homenetworks {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 8% 2% 8%;
+	width: 84%;
+	display: block;
+}
+#homeenquirydiv {
+	clear: none;
+	float: left;
+	margin:0 0 4% 0; padding:3% 3% 3% 3%;
+	width: 94%;
+	display: block;
+}
+#hometext {
+	clear: none;
+	float: left;
+	margin:0 0 4% 0; padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#aboutmaindiv {
+	clear: none;
+	float: left;
+	margin:0 0 3% 0; padding:3% 3% 3% 3%;
+	width: 94%;
+	display: block;
+}
+
+.servicemaindiv {
+	clear: none;
+	float: left;
+	margin:0 0 3% 0; padding:3% 3% 3% 3%;
+	width: 94%;
+	display: block; 
+}
+
+.servicemaindiv2 {
+	clear: none;
+	float: left;
+	margin:0 0 3% 0; padding:3% 3% 3% 3%;
+	width: 94%;
+	display: block; 
+}
+
+}
+
+/* tablet complated */
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 100%;
+	max-width: 100%;
+	margin:0 auto 0 auto;
+	padding:0 0 0 0;
+}
+
+#header {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 5% 0 5%;
+	width: 90%;
+	display: block;
+}
+#menudiv {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 5% 0 5%;
+	width: 90%;
+	display: block;
+}
+#bannerdiv {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#body {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin:0 0 0 0;
+	padding:0 5% 2% 5%;
+	width: 90%;
+	display: block;
+}
+#logo {
+	clear: none;
+	float: left;
+	margin:1% 0 1% 0; padding:0 0 0 0; border-bottom:none;
+	width: 30%;
+	display: block;
+}
+#callus {
+	clear: none;
+	float: right;
+	margin:1.2% 0 1% 0; padding:0 0 0 0;
+	width: 23%; text-align:right;  border-bottom:none;
+	display: block;
+}
+#regd {
+	clear: none;
+	float: right;
+	margin:0 5% 0 0; padding:1.5% 0 0 0;
+	width: 35%;
+	display: block;  border-bottom:none;
+}
+#topheader {
+	clear: both;
+	float: left;
+	margin:0 0 0 0; padding:0.5% 5% 0.5% 5%;
+	width: 90%;
+	display: block;
+}
+#bodytop {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 5% 2% 5%;
+	width: 90%;
+	display: block; font-size:12pt; line-height:22px; color:#472424; text-align:left;
+}
+#homeprofile {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 5% 2% 5%;
+	width: 90%;
+	display: block;
+}
+#homeservices {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 5% 2% 5%;
+	width: 90%;
+	display: block;
+}
+#homenetworks {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 5% 2% 5%;
+	width: 90%;
+	display: block;
+}
+#homeenquirydiv {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 2% 3% 2%;
+	width: 44%;
+	display: block;
+}
+#hometext {
+	clear: none;
+	float: right;
+	margin:0 0 0 0; padding:0 0 0 0;
+	width: 50%; text-align:left;
+	display: block;
+}
+#aboutmaindiv {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:2% 5% 2% 5%;
+	width: 90%;
+	display: block;
+}
+
+.servicemaindiv {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:0 5% 0 5%;
+	width: 90%;
+	display: block; 
+}
+
+.servicemaindiv2 {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:0 5% 0 5%;
+	width: 90%;
+	display: block; 
+}
+
+}

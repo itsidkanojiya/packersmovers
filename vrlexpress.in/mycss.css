@@ -1,0 +1,101 @@
+button.close {
+    width: 30px;
+    height: 30px;
+}
+
+.modal_bg {
+    background: #F1AC2D;
+}
+
+.modal_pad {
+    padding: 25px;
+}
+
+.modal_pad h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.footer-link-fixs {
+    font-size: 16px!important
+}
+
+.footer-link-name {
+    padding: 0 0 0 5px !important;
+    text-align: center!important;
+    line-height: 13px
+}
+
+.footer-livk-bor {
+    border: none!important
+}
+
+.border-ri {
+    border-right: solid 1px #ddd;
+    display: none
+}
+
+@media only screen and (min-width:360px) and (max-width:640px) {
+    .border-ri {
+        border-right: solid 3px #ddd;
+        display: block;
+        width: 19%!important
+    }
+    .whatever,
+    .whatever a {
+        color: #fff;
+        width: 100%;
+        float: left
+    }
+    .whatever {
+        position: fixed;
+        padding: 0;
+        background: #ed1c24;
+        z-index: 99999;
+        bottom: 0;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border-top: solid 1px #ddd
+    }
+    .whatever a {
+        font-size: 9px!important;
+        line-height: 22px;
+        padding: 3px 0;
+        text-align: center!important
+    }
+    .call-banner,
+    .or-banner,
+    .signup-banner {
+        text-align: center
+    }
+    .whatever a:hover {
+        color: #fff!important
+    }
+}
+
+@media only screen and (min-width:603px) and (max-width:767px) {
+    .whatever a:hover {
+        color: #fff!important
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:359px) {
+    /* .whatever{text-align: center; position: fixed; padding: 0; background: #fff; z-index: 99999; bottom: 0; margin-right: auto; margin-left: auto; display: block; border-top: solid 1px #ddd}.border-ri{border-right: solid 1px #ddd; display: block; width: 20%!important}.whatever, .whatever a{color: #fff; width: 100%; float: left}.whatever a{font-size: 9px!important; line-height: 22px; padding: 3px 0; text-align: center!important}*/
+}
+
+@media (min-width:768px) {
+    #get_a_quote .modal-dialog {
+        width: 480px;
+    }
+    #id01 .modal-dialog {
+        width: 80%;
+    }
+}
+
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+#bottom-bar a {
+    color: #ffffff;
+}

@@ -1,0 +1,473 @@
+@charset "utf-8";
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+h1{margin:5px 0;}
+h2{margin:5px 0;}
+h3{margin:5px 0;}
+h4{margin:5px 0;}
+p{margin:10px 0;}
+
+
+/* Mobile Layout: 480px and below. */
+.enquirytext{width:100%; height:auto; float:left; text-align:center; font-family:Cambria, "Cambria Math"; font-size:16pt; color:#ffffff; margin-bottom:3%; background:#ff0000; border-radius:5px; padding:1% 0 1% 0; }
+
+.formdiv{width:100%; height:auto; float:left; margin:1% 0; color:#000000; font-size:12px;}
+.formdiv2{width:100%; height:auto; float:left; margin:1% 0; color:#000000;}
+.sendmenu{width:100%; height:auto;  float:left; text-align:center; margin-bottom:3%;}
+
+.form{width:97.8%; height:auto; padding:2.5% 1%; border:#cccccc solid 1px;}
+
+.line1{width:48%; height:auto; float:left; margin:0 1% 0 1%;}
+.line2{width:48%; height:auto; float:left; margin:0 1% 0 1%;}
+.line3{width:98%; height:auto; float:left; margin:0 1% 0 1%;}
+
+.bluecolor{color:#3499ff;}
+
+.button {
+    background: #222222; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px; border-radius:8px;
+}
+.button:hover{background:#ff0000;}
+
+.button2 {
+    background: #ffcc00; /* Green */
+    border: none;
+    color: #000000;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px; border-radius:8px;
+}
+.button2:hover{background:#000000; color:#FFF;}
+
+.imgtop2{width:100%; height:auto; float:left; margin:0 0 5% 0; padding:0 0 5% 0; border-bottom:#CCC dashed 1px; text-align:center;}
+.readmore{text-decoration:none; color:#08acd5; font-weight:bold;}
+.readmore:hover{color:#ce0000;}
+
+.boxes {
+	clear: none;
+	
+	float: left;
+	
+	margin:0 0 5% 0; padding:5% 5% 5% 5%;
+	
+	width: 90%; border-bottom:#CCC solid 1px;
+	
+	display: block; background:#FFF; -webkit-box-shadow: 0px 0px 18px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 18px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 18px -8px rgba(0,0,0,0.75);
+	
+}
+
+.imgtop{width:100%; height:auto; float:left; margin:5% 0 0 0; padding:0 0 0 0;}
+.imgtext{width:55%; height:auto; float:left;}
+.textnetwork{width:100%; height:auto; float:left; padding:0 0 1% 0; font-family:Cambria, "Cambria Math"; font-size:16pt; color:#000000;}
+.networktext{font-family:Arial, Helvetica, sans-serif, "Monotype Corsiva"; font-size:10pt; text-decoration:none; color:#000000; display:block; padding:5px;}
+.networktext:hover{color:#ff4200; background:#fcfbeb;}
+
+.networktext2{font-family:Arial, Helvetica, sans-serif, "Monotype Corsiva"; font-size:10pt; text-decoration:none; color:#292e2f; display:block; padding:5px;}
+.networktext2:hover{color:#001fbf; background:#fcfbeb;}
+
+.coloums2{width:99%; height:auto; float:left;  background:#ffffff; border:#ece2ba solid 1px; margin:0.2%; padding:0%;}
+.coloums3{width:99%; height:auto; float:left;  background:#ffffff; border:#ece2ba solid 1px; margin:0.2%; padding:0%;}
+.coloums4{width:99%; height:auto; float:left;  background:#ffffff; border:#ece2ba solid 1px; margin:0.2%; padding:0%;}
+
+#homenetwork {
+	clear: none;
+	
+	float: left;
+	
+	margin:0 0 5% 0; padding:5% 5% 5% 5%;
+	
+	width: 90%;
+	
+	display: block; background:#ff9900; 
+	
+}
+#homenetwork2 {
+	clear: none;
+	
+	float: left;
+	
+	margin:0 0 5% 0; padding:5% 5% 5% 5%;
+	
+	width: 90%;
+	
+	display: block; background:#ceceff;
+	
+}
+#homenetwork3 {
+	clear: none;
+	
+	float: left;
+	
+	margin:0 0 0 0; padding:5% 5% 5% 5%;
+	
+	width: 90%;
+	
+	display: block; background:#ffd5d5;
+	
+}
+
+.footertop{width:100%; height:auto; float:left; margin-bottom:0%; padding:1% 0 1% 0; text-align:center; border-bottom:#3c393c solid 1px; }
+
+.copyrights{width:100%; height:auto; float:left; color:#8f8f8f;}
+.zawsoft{width:114px; height:auto; float:right;}
+.submenu{color:#969696; text-decoration:none; line-height:30px; font-size:10pt; font-weight:bold; padding:0 6px;}
+.submenu:hover{color:#ff690f; text-decoration:underline;}
+.submenu2{color:#515151; text-decoration:none; line-height:30px; font-size:10pt; font-weight:bold;  padding:0 6px;}
+.submenu2:hover{color:#ffffff;}
+
+.imageabt{width:100%; height:auto; float:left; margin:0 0 0 0;}
+.orangecolor{color:#f46200;}
+.colordark{color:#333399;}
+.redcolor{color:#f40000;}
+.colormain{color:#777777;}
+.maintext{color:#1f1e28; font-size:10pt;}
+
+.imageaboutleft{width:100%; height:auto; float:left; margin:0 0 5% 0;  padding:0 0 0 0;}
+.imageaboutright{width:100%; height:auto; float:left; margin:0 0 5% 0;  padding:0 0 0 0;}
+
+.mainclients{width:46%; height:auto; float:left; background:#FFF; padding:1%; border:#c7c7c7 solid 1px; margin:0.3%; border-radius:5px; text-align:center;} 
+
+#bodyright2 {
+	clear: none;
+	
+	float: left;
+	
+	margin:5% 0 5% 5%; padding:5% 5% 5% 5%;
+	
+	width: 80%;
+	
+	display: block; border:#cdcdcd solid 1px; color:#606060;
+	
+}
+.boxmain{width:100%; height:auto; float:left; margin:0 0 3% 0; padding:0 0 5% 0; border-bottom:#cdcdcd  dashed 1px;}
+
+.enquirybg3{width:100%; height:auto; float:left; margin:0 0 4% 0;}
+.enquiry1{width:35%; height:auto; float: left;}
+.enquiry2{width:5%; height:auto; float: left;}
+.enquiry3{width:60%; height:auto; float: left;}
+.form2{width:100%; height:auto; padding:1% 0; border:#b40000 solid 1px;}
+.form3{width:80%; height:auto; padding:1% 0; border:#d1d1d1 solid 1px;}
+.quotediv{width:90%; height:auto; float:left; margin:3% 5% 3% 5%; text-align:left;}
+
+.logon1{float:left; width:88%; height:auto; margin:0 2% 0 0;}
+.logon2{float:right; width:10%; height:auto; margin:0 0 0 0; text-align:right;}
+
+.colorwhite{color:#FFF;}
+.colorblack{color:#000000;}
+.colormain2{color:#3b3419;}
+
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 0em;
+	text-decoration: none;
+	color: white;
+	background:#fe4c04;
+	font-size: 12px;
+	padding: 5px; border-radius:5px;
+	display: none;
+}
+
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.line4{width:1px; height:auto; float:left; border-left:#FFF solid 1px;}
+
+#bodyright {
+	clear: none;
+	
+	float: left;
+	
+	margin:0 0 5% 0;  padding:0 0 0 0;
+	
+	width: 100%; text-align:left;
+	
+	display: block;
+	
+	
+}
+#bodyleft {
+	clear: none;
+	
+	float: left;
+	
+	margin:0 0 0 0;  padding:0 0 0 0;
+	
+	width: 100%; text-align:left;
+	
+	display: block;
+	
+}
+
+.headtext{width:100%; height:40px; line-height:40px; background:#ff0000; margin-bottom:10px; float:left; border-bottom:#dfdcdc solid 1px; -webkit-box-shadow: inset -1px -16px 16px -20px #000000;
+-moz-box-shadow: inset -1px -16px 16px -20px #000000;
+box-shadow: inset -1px -16px 16px -20px #000000; color:#ffffff; font-weight:bold; font-size:12pt;}
+
+.maindiv3{width:100%; height:auto; float:left; margin:0 0 5% 0;}
+.maintextdiv{width:100%; height:auto; float:left; margin:0 0 5% 0; padding:0 0 0 0; border-bottom:none; }
+
+.imagel{width:100%; height:auto; float:right; margin:0 0 5% 0; padding:0 0 0 0;}
+.imagel:hover{}
+.mainclients{width:46%; height:auto; float:left; background:#FFF; padding:1%; border:#c7c7c7 solid 1px; margin:0.3%; border-radius:5px; text-align:center;} 
+
+
+/* CSSTerm.com Simple CSS menu */
+
+.menu_simple ul {
+    margin: 0; 
+    padding: 0;
+    width:100%;
+    list-style-type: none;
+}
+
+.menu_simple ul li a {
+    text-decoration: none;
+    color:#222222; 
+    padding: 10.5px 11px;
+    background: #fce3ba; font-size:10pt;
+    display:block; border-top:#e3c38e solid 1px;  border-bottom:#ffffff solid 1px;
+}
+ 
+.menu_simple ul li a:visited {
+    color: none;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: #16191b;
+    background: #e0dccf;
+}
+
+.maintext{line-height:22px;}
+.tipbox{width:90%; height:auto; float:left;  border-top:#e3cba3 solid 1px; border-bottom:#ffffff solid 1px; padding:5% 5% 5% 5%; font-size:12px; margin:0 0; color:#484f53; line-height:21px; background:#fde4bb;}
+
+.tipbg{width:10px; height:10px; line-height:10px; padding:5px; text-align:left; background:#df1926; color:#ffffff; font-size:12px; border-radius:50%; float:left; margin-right:5%;}
+
+.heading{width:98%; height:auto; float:left;  background:#fff000; color:#df1926; font-size:16px; line-height:25px; margin:10px 0; padding:5px 0 5px 2%; -webkit-box-shadow: inset -1px -16px 16px -20px #000000;
+-moz-box-shadow: inset -1px -16px 16px -20px #000000;
+box-shadow: inset -1px -16px 16px -20px #000000; border-bottom:#FFF solid 1px;}
+
+#homeenquiry2 {
+	clear: none;
+	
+	float: left;
+	
+	margin:0 0 4% 0; padding:4% 4% 4% 4%; background:#fce3ba;
+	
+	width: 92%;
+	
+	display: block;
+	
+}
+.bgtext{width:90%; height:auto; float:left;  margin:5px 0 5px 0; padding:10px 5% 10px 5%; background:#3d4162;}
+.activemenu{background:#000; color:#FFF; display:block;}
+/* mobile complated */
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.line1{width:31%; height:auto; float:left; margin:0 1% 0 1%;}
+.line2{width:31%; height:auto; float:left; margin:0 1% 0 1%;}
+.line3{width:31%; height:auto; float:left; margin:0 1% 0 1%;}
+.imgtop2{width:100%; height:auto; float:left; margin:0 0 5% 0; padding:0 0 3% 0; border-bottom:#CCC dashed 1px;}
+.boxes {
+	clear: none;
+	float: left;
+	margin:2% 1% 2% 1%; padding:4% 4% 4% 4%;
+	width: 40%;
+	display: block;
+}
+.imgtop{width:100%; height:auto; float:left; margin:5% 0 0 0; padding:0 0 0 0;}
+.imgtext{width:50%; height:auto; float:left;}
+.coloums2{width:32%; height:auto; float:left;  margin:0.2%; padding:0%;}
+.coloums3{width:32%; height:auto; float:left;  margin:0.2%; padding:0%;}
+.coloums4{width:32%; height:auto; float:left;  margin:0.2%; padding:0%;}
+
+#homenetwork {
+	clear: none;
+	float: left;
+	margin:0 0 4% 0; padding:4% 5% 4% 5%;
+	width: 90%;
+	display: block;
+}
+#homenetwork2 {
+	clear: none;
+	float: left;
+	margin:0 0 4% 0; padding:4% 5% 4% 5%;
+	width: 90%;
+	display: block;
+}
+#homenetwork3 {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:4% 5% 4% 5%;
+	width: 90%;
+	display: block;
+}
+.footertop{width:100%; height:auto; float:left; margin-bottom:2%; padding:1% 0 1% 0; text-align:center;  }
+
+.copyrights{width:50%; height:auto; float:left; }
+.zawsoft{width:114px; height:auto; float:right;}
+
+.imageabt{width:49%; height:auto; float:left; margin:0.2% 0.5% 0.2% 0.5%;}
+.imageaboutleft{width:30%; height:auto; float:left; margin:0 5% 0 0;  padding:0 0 0 0;}
+.imageaboutright{width:30%; height:auto; float:right; margin:0 0 0 5%;  padding:0 0 0 0;}
+.mainclients{width:22%; height:auto; float:left; background:#FFF; padding:1%; border:#c7c7c7 solid 1px; margin:0.3%;} 
+
+#bodyright2 {
+	clear: none;
+	float: left;
+	margin:3% 0 3% 3%; padding:2% 2% 2% 2%;
+	width: 90%;
+	display: block;
+}
+.boxmain{width:100%; height:auto; float:left; margin:0 0 3% 0; padding:0 0 3% 0;}
+.enquirybg3{width:100%; height:auto; float:left; margin:0 0 2% 0;}
+.quotediv{width:48%; height:auto; float:left; margin:1%;}
+
+#bodyright {
+	clear: none;
+	float: left;
+	margin:0 0 4% 0; padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+#bodyleft {
+	clear: none;
+	float: left;
+	margin:0 0 0 0;  padding:0 0 0 0;
+	width: 100%;
+	display: block;
+}
+.maindiv3{width:100%; height:auto; float:left; margin:0 0 3% 0;}
+
+.maintextdiv{width:100%; height:auto; float:left; margin:0 0 2% 0; padding:0 0 0 0;}
+.imagel{width:30%; height:auto; float:right; margin:0 0 0 4%; padding:0 0 0 0;}
+.mainclients{width:22%; height:auto; float:left; background:#FFF; padding:1%; border:#c7c7c7 solid 1px; margin:0.3%;} 
+#homeenquiry2 {
+	clear: none;
+	
+	float: left;
+	
+	margin:0 0 2% 0; padding:2% 5% 1% 5%;
+	
+	width: 90%;
+	
+	display: block;
+	
+}
+}
+
+/* tablet complated */
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.line1{width:31%; height:auto; float:left; margin:0 1% 0 1%;}
+.line2{width:31%; height:auto; float:left; margin:0 1% 0 1%;}
+.line3{width:31%; height:auto; float:left; margin:0 1% 0 1%;}
+.imgtop2{width:29.3%; height:auto; float:left; margin:0 2% 0 2%; padding:0 0 0 0; border-bottom:none;}
+.boxes {
+	clear: none;
+	float: left;
+	margin:1% 1% 1% 1%; padding:1% 1% 2% 1%;
+	width: 29.3%;
+	display: block;
+}
+.imgtop{width:100%; height:auto; float:left; margin:5% 0 0 0; padding:0 0 0 0;}
+.imgtext{width:57%; height:auto; float:left;}
+.coloums2{width:24.4%; height:auto; float:left; margin:0.2%; padding:0%;}
+.coloums3{width:24.4%; height:auto; float:left; margin:0.2%; padding:0%;}
+.coloums4{width:24.4%; height:auto; float:left; margin:0.2%; padding:0%;}
+
+#homenetwork {
+	clear: none;
+	float: left;
+	margin:0 0 1px 0;  padding:2% 5% 2% 5%;
+	width: 90%;
+	display: block;
+}
+#homenetwork2 {
+	clear: none;
+	float: left;
+	margin:0 0 1px 0;  padding:2% 5% 2% 5%;
+	width: 90%;
+	display: block;
+}
+#homenetwork3 {
+	clear: none;
+	float: left;
+	margin:0 0 2% 0;  padding:2% 5% 2% 5%;
+	width: 90%;
+	display: block;
+}
+.footertop{width:100%; height:auto; float:left; margin-bottom:1%; padding:1% 0 1% 0; text-align:center;  }
+
+.copyrights{width:50%; height:auto; float:left;}
+.zawsoft{width:114px; height:auto; float:right;}
+.imageabt{width:49%; height:auto; float:left; margin:0.2% 0.5% 0.2% 0.5%;}
+.imageaboutleft{width:30%; height:auto; float:left; margin:0 4% 0 0;  padding:0 0 0 0;}
+.imageaboutright{width:30%; height:auto; float:right; margin:0 0 0 4%;  padding:0 0 0 0;}
+.mainclients{width:20%; height:auto; float:left; background:#FFF; padding:2%; border:#c7c7c7 solid 1px; margin:0.3%;} 
+
+#bodyright2 {
+	clear: none;
+	float: right;
+	margin:0 9% 0 5%; padding:1% 5% 1% 5%;
+	width: 70%;
+	display: block;
+}
+.boxmain{width:100%; height:auto; float:left; margin:0 0 2% 0; padding:0 0 0 0;}
+.enquirybg3{width:100%; height:auto; float:left; margin:0 0 1% 0;}
+.quotediv{width:31.3%; height:auto; float:left; margin:1%;}
+
+#bodyright {
+	clear: none;
+	float: right;
+	margin:0 0 0 0;  padding:0 0 0 0;
+	width: 73%;
+	display: block; border-left:#ba9605 solid 1px;
+}
+#bodyleft {
+	clear: none;
+	float: left;
+	margin:0 0 0 0;  padding:0 0 0 0;
+	width: 25%;
+	display: block;
+}
+.maindiv3{width:100%; height:auto; float:left; margin:0 0 5% 0;}
+
+.maintextdiv{width:98%; height:auto; float:left; margin:0 0 2% 0; padding:0 0 0 2%;}
+.imagel{width:30%; height:auto; float:right; margin:0 0 0 4%; padding:0 0 0 0;}
+#homeenquiry2 {
+	clear: none;
+	float: left;
+	margin:0 0 0 0; padding:5% 10% 5% 10%;
+	width: 80%;
+	display: block;
+}
+
+}
